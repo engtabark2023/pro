@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="crads">
+        <div class="head">
+            <h1>crads</h1>
+            <p>product managment system</p><br>
+        </div>
+        <div class="input">
+            <input type="text" placeholder="title" id="title">
+            <div class="price">
+                <input type="number" placeholder="price" id="price">
+                <input onkeyup="getTotal()" type="number" placeholder="taxes" id="taxes">
+                <input onkeyup="getTotal()" type="number" placeholder="ads" id="ads">
+                <input onkeyup="getTotal()" type="number" placeholder="discount" id="discount">
+                <small id="total"> </small>
+            </div>
+            <input type="number" placeholder="count" id="count">
+            <input type="text" placeholder="category" id="category">
+            <button id="create">create</button>
+        </div>
+        <div class="output">
+            <input type="text" placeholder="search" id="search">
+            <div class="typesearch">
+                <button id="sertile">Search By Title</button>
+                <button id="sercatg"> Search By Category</button>
+            </div>
+            <button id="delet"> Delete All ( )</button>
+            <table>
+                <tr>
+                    <th>ID</th>
+                    <th>TITLE</th>
+                    <th>PRICE</th>
+                    <th>Taxes</th>
+                    <th>Ads</th>
+                    <th>Discount</th>
+                    <th>total</th>
+                    <th>Category</th>
+                    <th>update</th>
+                    <th>delete</th>
+                </tr>
+            </table>
+            <tbody id="tbody">
+
+                
+            </tbody>
+
+        </div>
+
+    </div>
+    <script src="java.js"></script>
+</body>
+
+</html>

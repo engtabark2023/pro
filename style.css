@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: #fff;
+    background-color: rgb(44, 42, 42);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.crads {
+    width: 80%;
+    margin: auto;
+    line-height: 40px;
+
+}
+
+.head {
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 900;
+    padding-top: 2%;
+
+}
+
+input {
+    font-size: 20px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: #111;
+    margin: 7px 0;
+    border-radius: 7px;
+    padding: 3px;
+    color: #fff;
+}
+
+input:hover {
+    background-color: rgb(42, 12, 73);
+    font-size: 25px;
+    ;
+}
+
+input:focus {
+    transform: scale(1.1);
+}
+
+.price input {
+    width: 20%;
+}
+
+#total {
+    font-size: 15px;
+    background-color: #6a188a;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+#total:before {
+    content: 'Total: ';
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #5a1c66;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: rgb(42, 12, 73);
+    font-size: 28px;
+    ;
+    letter-spacing: 1px;
+}
+
+.typesearch {
+    display: flex;
+    justify-content: space-between;
+}
+
+.typesearch button {
+    width: 45%;
+
+}
+
+.output button {
+    margin: 7px 0;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+table th {
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 5px;
+}
+
+td {
+    font-size: 20px;
+    padding: 5px;
+}
+
